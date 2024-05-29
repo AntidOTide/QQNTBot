@@ -113,9 +113,20 @@
 #         w.write(json.dumps(json_file, ensure_ascii=False, indent=4, sort_keys=True))
 #         w.close()
 #     print(json)
-def summ(a, b):
-    return a, b
+# def summ(a, b):
+#     return a, b
+# import os
+# path = os.path.abspath(os.getcwd())
+# parent_dir = os.path.dirname(path)
+# print(parent_dir)
+# from config_file import load_json_from_file
+#
+# dict1 = load_json_from_file(u"memory/group/225649416/225649416.json")
+# dict2 = load_json_from_file(u"memory/group/225649416/225649416_config.json")
+# print(dict1 | dict2)
+li = []
+for i in range(1, 32):
+    li.append(i)
 
-
-
-
+print(li)
+print(li[-30:])
