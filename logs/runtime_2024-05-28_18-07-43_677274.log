@@ -1,0 +1,62 @@
+[2024-05-28T18:07:44.594216+0800] [INFO] 已获取到模型列表
+[2024-05-28T18:07:44.594216+0800] [INFO] gpt-3.5-turbo
+gpt-3.5-turbo-0301
+gpt-3.5-turbo-0613
+gpt-3.5-turbo-16k
+gpt-3.5-turbo-16k-0613
+gpt-3.5-turbo-1106
+gpt-4
+gpt-4-0314
+gpt-4-0613
+gpt-4-1106-preview
+gpt-4-vision-preview
+gpt-4-32k
+gpt-4-32k-0314
+gpt-4-32k-0613
+gpt-3.5-turbo-instruct
+gpt-3.5-turbo-instruct-0914
+text-embedding-ada-002
+dall-e
+dall-e-2
+dall-e-3
+whisper-1
+tts-1
+tts-1-hd
+tts-1-1106
+tts-1-hd-1106
+text-moderation-latest
+text-moderation-stable
+midjourney
+claude-2
+claude-instant-1
+palm-2-chat-bison
+palm-2-chat-bison-32k
+gemini-pro
+gemini-pro-vision
+gpt-4o
+
+[2024-05-28T18:07:49.598295+0800] [INFO] 收到私聊消息：
+[2024-05-28T18:07:49.598295+0800] [INFO] 指令说明
+[2024-05-28T18:07:50.112336+0800] [INFO] 私聊消息发送成功
+[2024-05-28T18:07:50.112336+0800] [INFO] 私聊消息发送成功
+[2024-05-28T18:08:04.620698+0800] [INFO] 收到私聊消息：
+[2024-05-28T18:08:04.620698+0800] [INFO] 逻辑段指令类型
+[2024-05-28T18:08:04.621658+0800] [ERROR] 出现异常！
+[2024-05-28T18:08:05.142456+0800] [INFO] 私聊消息发送成功
+[2024-05-28T18:08:05.142456+0800] [INFO] 私聊消息发送成功
+[2024-05-28T18:08:38.273416+0800] [INFO] 收到私聊消息：
+[2024-05-28T18:08:38.274418+0800] [INFO] 逻辑端令类型
+[2024-05-28T18:08:38.274418+0800] [ERROR] 出现异常！
+[2024-05-28T18:08:38.785447+0800] [INFO] 私聊消息发送成功
+[2024-05-28T18:08:38.785447+0800] [INFO] 私聊消息发送成功
+[2024-05-28T18:08:48.095647+0800] [INFO] 收到私聊消息：
+[2024-05-28T18:08:48.095647+0800] [INFO] [CQ:json,data={"app":"com.tencent.template.public"&#44;"meta":{"mail":{"title":"Fantia"&#44;"subTitle":"【Fantia】えるっぱいファンクラブに新しい投稿「ほぼ日投"&#44;"content":"2022/03/25 14:31:01の名無し様 参加中のファンクラブ「えるっぱいファンクラブ」に 新しい投稿が追加されました！"&#44;"detailDesc":"邮件详情"&#44;"mailUrl":"https://wx.mail.qq.com/login/login?auth_type=3&amp;qq_target=clientreadmail&amp;return_target=9&amp;mailid=ZC0028_VOLNuyGMdnsuI2YAOTKKpe5&amp;_wv=7"}}&#44;"prompt":"Fantia: 【Fantia】えるっぱいファンクラブに新しい投稿「ほぼ日投"&#44;"ver":"0.0.0.1"&#44;"view":"mail"&#44;"config":{"ctime":1716890928&#44;"token":"db7dcfd5c20baba19265204c6ff00873"}}]
+[2024-05-28T18:08:48.096648+0800] [ERROR] 出现异常！
+[2024-05-28T18:08:49.115576+0800] [INFO] {'status': 'failed', 'retcode': 400, 'data': None, 'message': '不能发送临时消息', 'wording': '不能发送临时消息', 'echo': None}
+[2024-05-28T18:08:49.116577+0800] [INFO] 私聊消息发送失败，错误信息：不能发送临时消息
+[2024-05-28T18:08:49.116577+0800] [INFO] 私聊消息发送失败，错误信息：不能发送临时消息
+[2024-05-28T18:08:51.013327+0800] [INFO] 收到私聊消息：
+[2024-05-28T18:08:51.013327+0800] [INFO] 你好
+[2024-05-28T18:08:51.013617+0800] [ERROR] 出现异常！
+[2024-05-28T18:08:51.531459+0800] [INFO] 私聊消息发送成功
+[2024-05-28T18:08:51.531459+0800] [INFO] 私聊消息发送成功

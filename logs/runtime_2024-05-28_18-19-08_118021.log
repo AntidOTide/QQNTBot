@@ -1,0 +1,37 @@
+[2024-05-28T18:19:08.901981+0800] [INFO] 已获取到模型列表
+[2024-05-28T18:19:08.902981+0800] [INFO] gpt-3.5-turbo
+gpt-3.5-turbo-0301
+gpt-3.5-turbo-0613
+gpt-3.5-turbo-16k
+gpt-3.5-turbo-16k-0613
+gpt-3.5-turbo-1106
+gpt-4
+gpt-4-0314
+gpt-4-0613
+gpt-4-1106-preview
+gpt-4-vision-preview
+gpt-4-32k
+gpt-4-32k-0314
+gpt-4-32k-0613
+gpt-3.5-turbo-instruct
+gpt-3.5-turbo-instruct-0914
+text-embedding-ada-002
+dall-e
+dall-e-2
+dall-e-3
+whisper-1
+tts-1
+tts-1-hd
+tts-1-1106
+tts-1-hd-1106
+text-moderation-latest
+text-moderation-stable
+midjourney
+claude-2
+claude-instant-1
+palm-2-chat-bison
+palm-2-chat-bison-32k
+gemini-pro
+gemini-pro-vision
+gpt-4o
+

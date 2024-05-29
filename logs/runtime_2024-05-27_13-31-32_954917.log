@@ -1,0 +1,49 @@
+[2024-05-27T13:31:33.871698+0800] [INFO] 已获取到模型列表
+[2024-05-27T13:31:33.872698+0800] [INFO] gpt-3.5-turbo
+gpt-3.5-turbo-0301
+gpt-3.5-turbo-0613
+gpt-3.5-turbo-16k
+gpt-3.5-turbo-16k-0613
+gpt-3.5-turbo-1106
+gpt-4
+gpt-4-0314
+gpt-4-0613
+gpt-4-1106-preview
+gpt-4-vision-preview
+gpt-4-32k
+gpt-4-32k-0314
+gpt-4-32k-0613
+gpt-3.5-turbo-instruct
+gpt-3.5-turbo-instruct-0914
+text-embedding-ada-002
+dall-e
+dall-e-2
+dall-e-3
+whisper-1
+tts-1
+tts-1-hd
+tts-1-1106
+tts-1-hd-1106
+text-moderation-latest
+text-moderation-stable
+midjourney
+claude-2
+claude-instant-1
+palm-2-chat-bison
+palm-2-chat-bison-32k
+gemini-pro
+gemini-pro-vision
+gpt-4o
+
+[2024-05-27T13:31:43.210226+0800] [INFO] 收到私聊消息：
+[2024-05-27T13:31:43.210226+0800] [INFO] 你好
+[2024-05-27T13:31:44.413273+0800] [INFO] 大模型返回内容
+[2024-05-27T13:31:44.413273+0800] [INFO] 你好！有什么我可以帮你的吗？
+[2024-05-27T13:31:44.922892+0800] [INFO] 私聊消息发送成功
+[2024-05-27T13:31:48.623979+0800] [INFO] 收到私聊消息：
+[2024-05-27T13:31:48.624979+0800] [INFO] 来点涩图 方舟
+[2024-05-27T13:31:51.901761+0800] [INFO] {'status': 'failed', 'retcode': 200, 'data': None, 'message': 'uri resource/sexy_img/arknights/arknights_3.jpg 解析失败,TypeError [ERR_INVALID_URL]: Invalid URL 可能resource/sexy_img/arknights/arknights_3.jpg不存在', 'wording': 'uri resource/sexy_img/arknights/arknights_3.jpg 解析失败,TypeError [ERR_INVALID_URL]: Invalid URL 可能resource/sexy_img/arknights/arknights_3.jpg不存在', 'echo': None}
+[2024-05-27T13:31:51.902761+0800] [INFO] 私聊消息发送失败，错误信息：uri resource/sexy_img/arknights/arknights_3.jpg 解析失败,TypeError [ERR_INVALID_URL]: Invalid URL 可能resource/sexy_img/arknights/arknights_3.jpg不存在
+[2024-05-27T13:31:53.326791+0800] [INFO] 大模型返回内容
+[2024-05-27T13:31:53.326791+0800] [INFO] 对不起，我不能提供任何不适当或违规的内容。如果你有关于《明日方舟》的其他问题，比如策略、角色推荐或游戏玩法，欢迎提问！
+[2024-05-27T13:31:53.844198+0800] [INFO] 私聊消息发送成功

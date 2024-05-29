@@ -1,0 +1,22 @@
+{
+    "memory": [
+        {
+            "role": "system",
+            "content": "你是我的人工智能帮手"
+        },
+        {
+            "role": "system",
+            "content": "Last conversation's time is:2024-05-28-18-31-03"
+        },
+        {
+            "role": "user",
+            "content": "你好？",
+            "time": "2024-05-28-18-31-03"
+        },
+        {
+            "role": "assistant",
+            "content": "你好！有什么我可以帮忙的吗？",
+            "time": "2024-05-28-18-31-03"
+        }
+    ]
+}

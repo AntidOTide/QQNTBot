@@ -1,0 +1,66 @@
+[2024-05-27T20:25:09.503703+0800] [INFO] 已获取到模型列表
+[2024-05-27T20:25:09.504704+0800] [INFO] gpt-3.5-turbo
+gpt-3.5-turbo-0301
+gpt-3.5-turbo-0613
+gpt-3.5-turbo-16k
+gpt-3.5-turbo-16k-0613
+gpt-3.5-turbo-1106
+gpt-4
+gpt-4-0314
+gpt-4-0613
+gpt-4-1106-preview
+gpt-4-vision-preview
+gpt-4-32k
+gpt-4-32k-0314
+gpt-4-32k-0613
+gpt-3.5-turbo-instruct
+gpt-3.5-turbo-instruct-0914
+text-embedding-ada-002
+dall-e
+dall-e-2
+dall-e-3
+whisper-1
+tts-1
+tts-1-hd
+tts-1-1106
+tts-1-hd-1106
+text-moderation-latest
+text-moderation-stable
+midjourney
+claude-2
+claude-instant-1
+palm-2-chat-bison
+palm-2-chat-bison-32k
+gemini-pro
+gemini-pro-vision
+gpt-4o
+
+[2024-05-27T20:25:16.486159+0800] [INFO] 收到私聊消息：
+[2024-05-27T20:25:16.486159+0800] [INFO] 你好
+[2024-05-27T20:25:17.623637+0800] [INFO] 大模型返回内容
+[2024-05-27T20:25:17.624637+0800] [INFO] 你好！有什么我可以帮你的吗？
+[2024-05-27T20:25:18.144039+0800] [INFO] 私聊消息发送成功
+[2024-05-27T20:25:18.144039+0800] [INFO] 私聊消息发送成功
+[2024-05-27T20:25:23.863490+0800] [INFO] 收到私聊消息：
+[2024-05-27T20:25:23.863490+0800] [INFO] 来点涩图 碧蓝档案
+[2024-05-27T20:25:29.897269+0800] [INFO] 私聊消息发送成功
+[2024-05-27T20:25:36.769022+0800] [INFO] 收到私聊消息：
+[2024-05-27T20:25:36.769022+0800] [INFO] 来点涩图 原神
+[2024-05-27T20:25:40.580672+0800] [INFO] 私聊消息发送成功
+[2024-05-27T20:25:46.132499+0800] [INFO] 收到私聊消息：
+[2024-05-27T20:25:46.133499+0800] [INFO] 来点涩图 方舟
+[2024-05-27T20:25:51.360462+0800] [INFO] 私聊消息发送成功
+[2024-05-27T20:29:32.408772+0800] [INFO] 收到私聊消息：
+[2024-05-27T20:29:32.409305+0800] [INFO] [CQ:json,data={"app":"com.tencent.template.public"&#44;"meta":{"mail":{"title":"Fantia"&#44;"subTitle":"【Fantia】毎日更新♡オナニスト♡ゆいに新しい投稿「イキ"&#44;"content":"2022/03/25 14:31:01の名無し様 参加中のファンクラブ「毎日更新♡オナニスト♡ゆい」に 新しい投稿が追加されまし"&#44;"detailDesc":"邮件详情"&#44;"mailUrl":"https://wx.mail.qq.com/login/login?auth_type=3&amp;qq_target=clientreadmail&amp;return_target=9&amp;mailid=ZC0027_12HNavCMd3ouI2YAIki0te5&amp;_wv=7"}}&#44;"prompt":"Fantia: 【Fantia】毎日更新♡オナニスト♡ゆいに新しい投稿「イキ"&#44;"ver":"0.0.0.1"&#44;"view":"mail"&#44;"config":{"ctime":1716812972&#44;"token":"ab10c363d3dbce8969cb2444b1d0b264"}}]
+[2024-05-27T20:29:38.118037+0800] [INFO] 大模型返回内容
+[2024-05-27T20:29:38.118037+0800] [INFO] 看起来你收到了一个来自Fantia的邮件通知，提到在你参与的粉丝俱乐部 "毎日更新♡オナニスト♡ゆい" 有新的投稿。以下是邮件的详细信息：
+
+**邮件标题:** 【Fantia】毎日更新♡オナニスト♡ゆいに新しい投稿「イキ
+**简要描述:** 你参与的粉丝俱乐部 "毎日更新♡オナニスト♡ゆい" 有新的帖子
+**时间:** 2022/03/25 14:31:01
+**邮件详情链接:** [Fantia 邮件详情](https://wx.mail.qq.com/login/login?auth_type=3&qq_target=clientreadmail&return_target=9&mailid=ZC0027_12HNavCMd3ouI2YAIki0te5&_wv=7)
+
+如果你有任何问题或需要进一步帮助，请告诉我！
+[2024-05-27T20:29:38.642867+0800] [INFO] {'status': 'failed', 'retcode': 400, 'data': None, 'message': '不能发送临时消息', 'wording': '不能发送临时消息', 'echo': None}
+[2024-05-27T20:29:38.642867+0800] [INFO] 私聊消息发送失败，错误信息：不能发送临时消息
+[2024-05-27T20:29:38.642867+0800] [INFO] 私聊消息发送失败，错误信息：不能发送临时消息

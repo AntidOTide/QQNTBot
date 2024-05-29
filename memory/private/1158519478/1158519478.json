@@ -1,0 +1,12 @@
+{
+    "memory": [
+        {
+            "role": "system",
+            "content": "current time is:"
+        },
+        {
+            "role": "system",
+            "content": "current time is:"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+[2024-05-26T17:58:07.505763+0800] [INFO] 已获取到模型列表
+[2024-05-26T17:58:07.505763+0800] [INFO] gpt-3.5-turbo
+gpt-3.5-turbo-0301
+gpt-3.5-turbo-0613
+gpt-3.5-turbo-16k
+gpt-3.5-turbo-16k-0613
+gpt-3.5-turbo-1106
+gpt-4
+gpt-4-0314
+gpt-4-0613
+gpt-4-1106-preview
+gpt-4-vision-preview
+gpt-4-32k
+gpt-4-32k-0314
+gpt-4-32k-0613
+gpt-3.5-turbo-instruct
+gpt-3.5-turbo-instruct-0914
+text-embedding-ada-002
+dall-e
+dall-e-2
+dall-e-3
+whisper-1
+tts-1
+tts-1-hd
+tts-1-1106
+tts-1-hd-1106
+text-moderation-latest
+text-moderation-stable
+midjourney
+claude-2
+claude-instant-1
+palm-2-chat-bison
+palm-2-chat-bison-32k
+gemini-pro
+gemini-pro-vision
+gpt-4o
+
+[2024-05-26T17:58:21.272487+0800] [INFO] 收到群聊消息：
+[2024-05-26T17:58:21.273342+0800] [INFO] [CQ:at,qq=2197634826] 指令说明
+[2024-05-26T17:58:21.784314+0800] [INFO] 群聊消息发送成功
+[2024-05-26T17:58:31.994411+0800] [INFO] 收到群聊消息：
+[2024-05-26T17:58:31.994411+0800] [INFO] [CQ:at,qq=2197634826] 群指令类型
+[2024-05-26T17:58:32.513165+0800] [INFO] 群聊消息发送成功
+[2024-05-26T17:58:50.817341+0800] [INFO] 收到群聊消息：
+[2024-05-26T17:58:50.817341+0800] [INFO] [CQ:at,qq=2197634826] 换个名字 流萤小姐盖世无双
+[2024-05-26T17:58:52.452447+0800] [INFO] 大模型返回内容
+[2024-05-26T17:58:52.452447+0800] [INFO] 好的，流萤小姐盖世无双，很高兴能为您提供帮助！有什么我可以帮您的吗？
+[2024-05-26T17:58:52.965616+0800] [INFO] 群聊消息发送成功

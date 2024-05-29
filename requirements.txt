@@ -1,0 +1,11 @@
+creart
+Flask~=3.0.1
+openai~=0.28.0
+Pillow~=10.2.0
+requests~=2.31.0
+tiktoken==0.3.0
+edge_tts
+asyncio~=3.4.3
+EdgeGPT~=0.13.2
+replicate~=0.26.0
+loguru~=0.7.2
