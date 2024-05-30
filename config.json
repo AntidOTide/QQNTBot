@@ -18,7 +18,7 @@
         "conversation_style": "galileo"
     },
     "qq_bot": {
-        "qq_no": "2265917047",
+        "qq_no": "2197634826",
         "cqhttp_url": "http://127.0.0.1:3000",
         "max_length": 9999,
         "image_path": "../QBot/data/images",

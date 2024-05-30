@@ -1,0 +1,16 @@
+{
+    "config": [
+        {
+            "role": "system",
+            "content": "你是我的人工智能帮手"
+        },
+        {
+            "role": "system",
+            "content": "Current time now is:2024-05-29-17-57-51"
+        },
+        {
+            "role": "system",
+            "content": "以下是聊天室里的之前的对话记录，这里是一个聊天室，信息的输入格式是[名字]:[内容]，你在回答问题时需要参照以下的事实进行回答五十块一个的好兄弟:[CQ:image,file=C15B987034072F2E1059E90C0A6BD053.jpg,url=https://multimedia.nt.qq.com.cn/download?appid=1407&amp;fileid=CgoxODQ2MzI4NzY0EhRP4KErCoqsvkOgcL09G0XxNp2oSBjitQYg_woo-43Yv8yyhgNQgL2jAQ&amp;spec=0,file_size=105186]\nYoshiki Takanori:屏幕\nYoshiki Takanori:坏了\nYoshiki Takanori:[CQ:image,file=C298A2731D5A4355C240F9FFB2BAFF8B.jpg,url=https://multimedia.nt.qq.com.cn/download?appid=1407&amp;fileid=CgoyMjY4NDUwNjAwEhTJH0UrxjAf3sVWRpOEefBWsOzPHhjOhE0g_wooxeSspdmyhgNQgL2jAQ&amp;spec=0,file_size=1262158]\nYoshiki Takanori:我在想，放假，让人家给我把屏幕拆了，然后我先连个显示器玩\nYoshiki Takanori:[CQ:image,file=0E64EFE38E3ABF63BF23E3BFC943BB61.jpg,url=https://multimedia.nt.qq.com.cn/download?appid=1407&amp;fileid=CgoyMjY4NDUwNjAwEhQ3LSPMrlrcGSXTcKv5BGEkSkMBMBjv3Awg_woospuPgdqyhgNQgL2jAQ&amp;spec=0,file_size=208495]\nYoshiki Takanori:你见过自带显卡，CPU的键盘吗\n𝘊𝘩𝘦𝘦𝘴𝘦.:你说的是这个吗\n𝘊𝘩𝘦𝘦𝘴𝘦.:[CQ:image,file=1D8F14462597754BB39891AC37159721.jpg,url=https://multimedia.nt.qq.com.cn/download?appid=1407&amp;fileid=CgoxMTU4NTE5NDc4EhSuTPpBIMBTFoAXJ4StIR3sixHe8BjLjwgg_wooxoLgweGyhgNQgL2jAQ&amp;spec=0,file_size=133067]\nYoshiki Takanori:[CQ:face,id=3]\nYoshiki Takanori: 你觉得没有屏幕的笔记本可以等同于自带显卡CPU的键盘吗"
+        }
+    ]
+}
