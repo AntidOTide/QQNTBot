@@ -1,0 +1,12 @@
+{
+    "memory": [
+        {
+            "role": "system",
+            "content": "你是我的人工智能帮手"
+        },
+        {
+            "role": "system",
+            "content": "current time is:2024-05-30-02-12-06"
+        }
+    ]
+}
