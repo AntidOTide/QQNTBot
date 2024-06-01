@@ -1,4 +1,7 @@
 from datetime import datetime, timezone, timedelta
+
+import openai
+
 from config_file import web_collection, config_data
 import requests
 import os
@@ -268,18 +271,18 @@ def num_tokens_from_messages(messages, model="gpt-3.5-turbo"):
 
 
 # sd生成图片,这里只做了正向提示词，其他参数自己加
-def sd_img(msg):
-    res = get_stable_diffusion_img({
-        "prompt": msg,
-        "width": 768,
-        "height": 512,
-        "num_inference_steps": 20,
-        "guidance_scale": 7.5,
-        "negative_prompt": "",
-        "scheduler": "K_EULER_ANCESTRAL",
-        "seed": random.randint(1, 9999999),
-    }, config_data['replicate']['api_token'])
-    return res[0]
+# def sd_img(msg):
+#     res = get_stable_diffusion_img({
+#         "prompt": msg,
+#         "width": 768,
+#         "height": 512,
+#         "num_inference_steps": 20,
+#         "guidance_scale": 7.5,
+#         "negative_prompt": "",
+#         "scheduler": "K_EULER_ANCESTRAL",
+#         "seed": random.randint(1, 9999999),
+#     }, config_data['replicate']['api_token'])
+#     return res[0]
 
 
 def image(uid, pic_path, msg):

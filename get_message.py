@@ -2,6 +2,8 @@ from memory import write_memory_private_config, write_memory_group_config
 import bot_function
 from loguru import logger
 import requests
+from config_file import config_data
+from send_message import send_private_message_image
 
 
 def get_private_message(uid: str, message: str, private_memory: dict) -> str | list:
@@ -47,7 +49,7 @@ def get_private_message(uid: str, message: str, private_memory: dict) -> str | l
     else:
         # 获得对话session
         session = bot_function.get_chat_session('P' + str(uid))
-        msg_list = bot_function.chat(message, session, private_memory)  # 将消息转发给ChatGPT处理
+        msg_list = bot_function.chat(message, session, private_memory,chat_type="private")  # 将消息转发给ChatGPT处理
         if isinstance(msg_list, str):
             # write_memory_private_config(uid=uid, data=msg_list)
             logger.info(msg_list)

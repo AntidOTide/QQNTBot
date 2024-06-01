@@ -7,9 +7,9 @@ from bot_function import get_bj_time
 
 
 def load_memory_private_config(uid) -> dict:
-    if not os.path.exists(f"memory/private/{uid}"):
-        os.makedirs(f"memory/private/{uid}")
-        with open(f"memory/private/{uid}/{uid}.json", "w", encoding='utf-8') as f:
+    if not os.path.exists(f"../resource/memory/private/{uid}"):
+        os.makedirs(f"../resource/memory/private/{uid}")
+        with open(f"../resource/memory/private/{uid}/{uid}.json", "w", encoding='utf-8') as f:
             default_data = {
                 "memory": [
                     {
@@ -25,22 +25,22 @@ def load_memory_private_config(uid) -> dict:
             f.write(json.dumps(default_data, ensure_ascii=False, indent=4))
             f.close()
     else:
-        memory = load_json_from_file(f"memory/private/{uid}/{uid}.json")
+        memory = load_json_from_file(f"../resource/memory/private/{uid}/{uid}.json")
         return memory
 
 
 def write_memory_private_config(uid: str, data: dict):
     # memory = load_json_from_file(f"memory/private/{uid}/{uid}.json")
     # memory["memory"].append(data)
-    with open(f"memory/private/{uid}/{uid}.json", "w", encoding='utf-8') as f:
+    with open(f"../resource/memory/private/{uid}/{uid}.json", "w", encoding='utf-8') as f:
         f.write(json.dumps(data, ensure_ascii=False, indent=4))
         f.close()
 
 
 def load_memory_group_config(gid) -> list:
-    if not os.path.exists(f"memory/group/{gid}"):
-        os.makedirs(f"memory/group/{gid}")
-        with open(f"memory/group/{gid}/{gid}_config.json", "w", encoding='utf-8') as f:
+    if not os.path.exists(f"../resource/memory/group/{gid}"):
+        os.makedirs(f"../resource/memory/group/{gid}")
+        with open(f"../resource/memory/group/{gid}/{gid}_config.json", "w", encoding='utf-8') as f:
             default_data = {
                 "config": [
                     {
@@ -59,17 +59,17 @@ def load_memory_group_config(gid) -> list:
             }
             f.write(json.dumps(default_data, ensure_ascii=False, indent=4))
             f.close()
-        with open(f"memory/group/{gid}/{gid}.json", "w", encoding='utf-8') as f:
+        with open(f"../resource/memory/group/{gid}/{gid}.json", "w", encoding='utf-8') as f:
             data = {"memory": []}
             f.write(json.dumps(data, ensure_ascii=False, indent=4))
             f.close()
-        group_config = load_json_from_file(f"memory/group/{gid}/{gid}_config.json")
-        group_memory = load_json_from_file(f"memory/group/{gid}/{gid}.json")
+        group_config = load_json_from_file(f"../resource/memory/group/{gid}/{gid}_config.json")
+        group_memory = load_json_from_file(f"../resource/memory/group/{gid}/{gid}.json")
 
         return [group_config, group_memory]
     else:
-        group_config = load_json_from_file(f"memory/group/{gid}/{gid}_config.json")
-        group_memory = load_json_from_file(f"memory/group/{gid}/{gid}.json")
+        group_config = load_json_from_file(f"../resource/memory/group/{gid}/{gid}_config.json")
+        group_memory = load_json_from_file(f"../resource/memory/group/{gid}/{gid}.json")
         summary = "以下是聊天室里的之前的对话记录，这里是一个聊天室，信息的输入格式是[名字]:[内容]，你在回答问题时需要参照以下的事实进行回答"
         memory_len = len(group_memory["memory"])
         if memory_len < 30:
@@ -86,13 +86,13 @@ def load_memory_group_config(gid) -> list:
 
 
 def write_memory_group_config(gid, uid: str, data: dict):
-    with open(f"memory/group/{gid}/{gid}_config.json", "w", encoding='utf-8') as f:
+    with open(f"../resource/memory/group/{gid}/{gid}_config.json", "w", encoding='utf-8') as f:
         f.write(json.dumps(data, ensure_ascii=False, indent=4))
         f.close()
 
 
 def write_memory_group(gid, uid: str, data: dict):
-    with open(f"memory/group/{gid}/{gid}.json", "w", encoding='utf-8') as f:
+    with open(f"../resource/memory/group/{gid}/{gid}.json", "w", encoding='utf-8') as f:
         f.write(json.dumps(data, ensure_ascii=False, indent=4))
         f.close()
 # data = {
