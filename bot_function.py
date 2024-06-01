@@ -1,20 +1,17 @@
-from datetime import datetime, timezone, timedelta
-
-import openai
-
-from config_file import web_collection, config_data
-import requests
+import json
 import os
 import re
-from loguru import logger
 import traceback
 from copy import deepcopy
+from datetime import datetime, timezone, timedelta
+import openai
+import requests
 import tiktoken
-import re
-import random
+from loguru import logger
+from QBot import current_key_index
 from answer_online import search_serper_online, summary_answer
+from config_file import web_collection, config_data
 from credit_summary import get_credit_summary
-import json
 
 summary = get_credit_summary()
 model_str = summary[3]

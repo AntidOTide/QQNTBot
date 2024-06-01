@@ -1,5 +1,4 @@
 import asyncio
-from typing import overload
 from config_file import config_data
 from loguru import logger
 import requests

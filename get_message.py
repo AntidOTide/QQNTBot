@@ -49,7 +49,7 @@ def get_private_message(uid: str, message: str, private_memory: dict) -> str | l
     else:
         # 获得对话session
         session = bot_function.get_chat_session('P' + str(uid))
-        msg_list = bot_function.chat(message, session, private_memory,chat_type="private")  # 将消息转发给ChatGPT处理
+        msg_list = bot_function.chat(message, session, private_memory, chat_type="private")  # 将消息转发给ChatGPT处理
         if isinstance(msg_list, str):
             # write_memory_private_config(uid=uid, data=msg_list)
             logger.info(msg_list)
@@ -98,13 +98,12 @@ def get_group_message(uid: str, gid: str, message: str, group_memory: dict):
         command, name = message.split()
         res = requests.post(url=config_data['qq_bot']['cqhttp_url'] + "/set_group_card", json={
             'group_id': gid,
-            'user_id': qq_no,
+            'user_id': config_data["qq_bot"]["qq_no"],
             'card': name
         }).json()
         if res['status'] == 'ok':
             msg_text = f"更改群号[{gid}]的qq名字为 [ {name} ] "
             logger.info(msg_text)
-            session = bot_function.get_chat_session('G' + str(gid))
             return msg_text
         else:
             return "更改名字失败,请重试"

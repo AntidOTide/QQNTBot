@@ -27,7 +27,7 @@ def summary_answer(search_json):
         try:
             text += (str(i['position']) + ". " + i["snippet"] + "\n")
 
-        except:
+        except Exception:
             continue
     print(text)
     question = search_json["searchParameters"]["q"]

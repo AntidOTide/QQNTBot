@@ -1,19 +1,19 @@
 import json
 
-from flask import request, Flask
 import openai
-import requests
+from flask import request, Flask
+from loguru import logger
+
+from bot_function import get_chat_session
 # from stable_diffusion import get_stable_diffusion_img
 from config_file import config_data
-
 from credit_summary import get_credit_summary
-from loguru import logger
+from get_message import get_private_message, get_group_message
+from memory import load_memory_private_config, load_memory_group_config, \
+    write_memory_group_config, write_memory_group
 from send_message import (send_private_message, send_private_message_image,
                           send_group_message, send_group_message_image,
                           set_friend_add_request, set_group_invite_request)
-from memory import load_memory_private_config, write_memory_private_config, load_memory_group_config, \
-    write_memory_group_config, write_memory_group
-from get_message import get_private_message, get_group_message
 
 logger.add("logs/runtime_{time}.log", format="[{time}] [{level}] {message}", rotation="500 KB")
 qq_no = config_data['qq_bot']['qq_no']
@@ -120,28 +120,28 @@ def get_message():
 
 
 # 测试接口，可以用来测试与ChatGPT的交互是否正常，用来排查问题
-@server.route('/chat', methods=['post'])
-def chatapi():
-    requestJson = request.get_data()
-    if requestJson is None or requestJson == "" or requestJson == {}:
-        resu = {'code': 1, 'msg': '请求内容不能为空'}
-        return json.dumps(resu, ensure_ascii=False)
-    data = json.loads(requestJson)
-    if data.get('id') is None or data['id'] == "":
-        resu = {'code': 1, 'msg': '会话id不能为空'}
-        return json.dumps(resu, ensure_ascii=False)
-    print(data)
-    try:
-        s = get_chat_session(data['id'])
-        msg = chat(data['msg'], s)
-        if '查询余额' == data['msg'].strip():
-            msg = msg.replace('\n', '<br/>')
-        resu = {'code': 0, 'data': msg, 'id': data['id']}
-        return json.dumps(resu, ensure_ascii=False)
-    except Exception as error:
-        print("接口报错")
-        resu = {'code': 1, 'msg': '请求异常: ' + str(error)}
-        return json.dumps(resu, ensure_ascii=False)
+# @server.route('/chat', methods=['post'])
+# def chatapi():
+#     requestJson = request.get_data()
+#     if requestJson is None or requestJson == "" or requestJson == {}:
+#         resu = {'code': 1, 'msg': '请求内容不能为空'}
+#         return json.dumps(resu, ensure_ascii=False)
+#     data = json.loads(requestJson)
+#     if data.get('id') is None or data['id'] == "":
+#         resu = {'code': 1, 'msg': '会话id不能为空'}
+#         return json.dumps(resu, ensure_ascii=False)
+#     print(data)
+#     try:
+#         s = get_chat_session(data['id'])
+#         msg = chat(data['msg'], s)
+#         if '查询余额' == data['msg'].strip():
+#             msg = msg.replace('\n', '<br/>')
+#         resu = {'code': 0, 'data': msg, 'id': data['id']}
+#         return json.dumps(resu, ensure_ascii=False)
+#     except Exception as error:
+#         print("接口报错")
+#         resu = {'code': 1, 'msg': '请求异常: ' + str(error)}
+#         return json.dumps(resu, ensure_ascii=False)
 
 
 # 重置会话接口
